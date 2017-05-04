@@ -13,12 +13,16 @@ export class AppComponent {
 myProducts : Array<Product> =[{
 id: "1",
 description: 'lorem ipsum',
-name: 'Product 1'
+name: 'N160ME',
+type: '1999 Cessna 172'
 },
 {
 id: "2",
-description: 'lorem ipsum 2',
-name: 'Product 2'
+type: '1979 A36 Bonanza Turbo Prop',
+name: 'N6652D',
+description: 'lorem ipsum 2'
+
+
 }];
 
 }
