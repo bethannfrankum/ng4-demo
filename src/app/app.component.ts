@@ -8,19 +8,21 @@ import {Product} from './shared/models/product';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'Aircraft Listings';
 
 myProducts : Array<Product> =[{
-id: "1",
-description: 'lorem ipsum',
-name: 'N160ME',
-type: '1999 Cessna 172'
+id: "N160ME",
+description: '172SP. 180hp. Full King panel. KMA 26, KLN 94 GPS. KT 76C...',
+location: 'Fayetteville, AR',
+type: '2000 CESSNA 172S SKYHAWK SP',
+price: '$200,000'
 },
 {
-id: "2",
-type: '1979 A36 Bonanza Turbo Prop',
-name: 'N6652D',
-description: 'lorem ipsum 2'
+id: "N6652D",
+type: '1979 BEECHCRAFT V35B BONANZA',
+location: 'Branson, MO',
+description: '1979 V35B. IO-520 BB. 3 Blade Hartzell. New Garmin panel...',
+price: '$350,000'
 
 
 }];
